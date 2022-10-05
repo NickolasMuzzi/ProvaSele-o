@@ -41,7 +41,7 @@ const RegisterForm = ({
         apiClient.post(`cadastro/cadastros/create_cadastro`, 
         data)
         .then((res) => {
-            toast.success("Cadastro concluído com sucesso")
+            return toast.success("Cadastro concluído com sucesso, atualize a tela para ter acesso às informações.")
         })
         .catch((err)=>{
             if(err.response.data){
