@@ -8,20 +8,9 @@ import MobileList from '../components/MobileList'
 import apiClient from '../config/axiosConfig'
 type ListSectionProps = {
     className?: string
+    
 }
-export const teste = [{
-    "id": "0",
-    "nome": "Nickolas Muzzi vitoriano soares",
-    "email": "nickolasmuzzi@gmail.commmmm",
-    "nascimento": "04/11/2002",
-    "telefone": "(31) 9 8401-7410"
-}, {
-    "id": "1",
-    "nome": "Nickolas Muzzi",
-    "email": "nickolasmuzzi@gmail.com",
-    "nascimento": "04/11/2002",
-    "telefone": "(31) 9 8401-7410"
-}]
+
 const ListSection = ({ className }: ListSectionProps) => {
     const [data, setData] = useState<any>()
     
