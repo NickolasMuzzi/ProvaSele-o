@@ -1,0 +1,38 @@
+.card{
+    width: 90%;
+    height: 50%;
+    background-color: #ffff;
+    border: 1px solid #29abe2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2%;
+}
+.tag{
+   width: 20%;
+   text-align: left; 
+   font-size: 20px;
+   color: #08253d;
+   display: flex;
+   align-items: center;
+}
+.value{
+    display: flex;
+   align-items: center;
+    width: 80%;
+    text-align: center; 
+    white-space: normal;
+    word-wrap: break-word;
+    color: #aeabab
+}
+.row{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    word-wrap: normal;
+
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom:1px solid #29abe2
+}

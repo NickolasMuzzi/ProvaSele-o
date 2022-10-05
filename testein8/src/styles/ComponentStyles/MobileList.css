@@ -1,0 +1,33 @@
+.container-list{
+    width: 100%;
+    height: 80vh;
+
+}
+.align-card{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.list-positions{
+    width: 94.5%;
+    height: 50px;
+    background-color: #eeeeee;
+    display:flex;
+    flex-direction: row;
+    overflow-x: scroll;
+    overflow-y: hidden;
+
+}
+.position{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #29abe2;
+    margin-right: 5px;
+    border: 1px solid #909090
+}

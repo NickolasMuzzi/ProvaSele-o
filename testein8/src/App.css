@@ -1,0 +1,39 @@
+@font-face {
+  font-family: "HelveticaUltraLt";
+  src: url('../Fonts/HelveticaUltraLt_0.ttf');
+}
+@font-face {
+  font-family: "ps";
+  src: url('../Fonts/ps.ttf');
+}
+@font-face {
+  font-family: "Roboto-Light";
+  src: url('../Fonts/Roboto-Light_0.ttf');
+}
+
+
+
+
+html{
+  width: 100%;
+  height: auto;
+  min-height: 100%;
+  overflow-x: none;
+
+}
+body{
+  width: 100%;
+  height: auto;
+  min-height:100%;
+  overflow-x: none;
+}
+
+.App {
+  text-align: center;
+  width: 100%;
+  height: auto;
+  overflow-x: none;
+
+}
+
+
