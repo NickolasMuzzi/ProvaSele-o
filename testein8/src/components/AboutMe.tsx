@@ -7,10 +7,10 @@ type AboutMeProps ={
 const AboutMe = ({className}: AboutMeProps) => {
     return(
         <div className={className || "about-me-container"} >
-            <p>Nickolas Muzzi Vitoriano Soares</p>
-            <p>nickolasmuzziv@gmail.com</p>
-            <p>(31) 9 8401-7410</p>
-            <p>Faculdade Newton Paiva - Sistemas de Informação</p>
+            <p className="row-data">Nickolas Muzzi Vitoriano Soares</p>
+            <p className="row-data">nickolasmuzziv@gmail.com</p>
+            <p className="row-data">(31) 9 8401-7410</p>
+            <p className="row-data">Faculdade Newton Paiva - Sistemas de Informação</p>
         </div>
     )
 }

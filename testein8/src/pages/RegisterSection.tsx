@@ -10,7 +10,7 @@ const RegisterSection = ({ className }: RegisterSectionProps) => {
     return (
         <div className='register-section-container'>
             <div className="form-container">
-                <p>CADASTRO</p>
+                <p style={{fontSize: "50px", margin: '0'}}>CADASTRO</p>
                 <RegisterForm/>
 
             </div>
